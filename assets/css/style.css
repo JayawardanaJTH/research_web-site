@@ -711,18 +711,18 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Portfolio
+# document
 --------------------------------------------------------------*/
-.portfolio .portfolio-item {
+.document .document-item {
   margin-bottom: 30px;
 }
-.portfolio #portfolio-flters {
+.document #document-flters {
   padding: 0;
   margin: 0 auto 20px auto;
   list-style: none;
   text-align: center;
 }
-.portfolio #portfolio-flters li {
+.document #document-flters li {
   cursor: pointer;
   display: inline-block;
   padding: 8px 15px 10px 15px;
@@ -735,21 +735,21 @@ section {
   transition: all 0.3s ease-in-out;
   border-radius: 3px;
 }
-.portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
+.document #document-flters li:hover, .document #document-flters li.filter-active {
   color: #fff;
   background: #e03a3c;
 }
-.portfolio #portfolio-flters li:last-child {
+.document #document-flters li:last-child {
   margin-right: 0;
 }
-.portfolio .portfolio-wrap {
+.document .document-wrap {
   transition: 0.3s;
   position: relative;
   overflow: hidden;
   z-index: 1;
   background: rgba(17, 17, 17, 0.6);
 }
-.portfolio .portfolio-wrap::before {
+.document .document-wrap::before {
   content: "";
   background: rgba(17, 17, 17, 0.6);
   position: absolute;
@@ -761,10 +761,10 @@ section {
   z-index: 2;
   opacity: 0;
 }
-.portfolio .portfolio-wrap img {
+.document .document-wrap img {
   transition: all ease-in-out 0.3s;
 }
-.portfolio .portfolio-wrap .portfolio-info {
+.document .document-wrap .document-info {
   opacity: 0;
   position: absolute;
   top: 0;
@@ -779,12 +779,12 @@ section {
   align-items: flex-start;
   padding: 20px;
 }
-.portfolio .portfolio-wrap .portfolio-info h4 {
+.document .document-wrap .document-info h4 {
   font-size: 20px;
   color: #fff;
   font-weight: 600;
 }
-.portfolio .portfolio-wrap .portfolio-info p {
+.document .document-wrap .document-info p {
   color: rgba(255, 255, 255, 0.7);
   font-size: 14px;
   text-transform: uppercase;
@@ -792,81 +792,241 @@ section {
   margin: 0;
   font-style: italic;
 }
-.portfolio .portfolio-wrap .portfolio-links {
+.document .document-wrap .document-links {
   text-align: center;
   z-index: 4;
 }
-.portfolio .portfolio-wrap .portfolio-links a {
+.document .document-wrap .document-links a {
   color: rgba(255, 255, 255, 0.4);
   margin: 0 5px 0 0;
   font-size: 28px;
   display: inline-block;
   transition: 0.3s;
 }
-.portfolio .portfolio-wrap .portfolio-links a:hover {
+.document .document-wrap .document-links a:hover {
   color: #fff;
 }
-.portfolio .portfolio-wrap:hover::before {
+.document .document-wrap:hover::before {
   opacity: 1;
 }
-.portfolio .portfolio-wrap:hover img {
+.document .document-wrap:hover img {
   transform: scale(1.2);
 }
-.portfolio .portfolio-wrap:hover .portfolio-info {
+.document .document-wrap:hover .document-info {
   opacity: 1;
 }
 
 /*--------------------------------------------------------------
-# Portfolio Details
+# document Details
 --------------------------------------------------------------*/
-.portfolio-details {
+.document-details {
   padding-top: 40px;
 }
-.portfolio-details .portfolio-details-slider img {
+.document-details .document-details-slider img {
   width: 100%;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination {
+.document-details .document-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+.document-details .document-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #e03a3c;
 }
-.portfolio-details .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+.document-details .document-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #e03a3c;
 }
-.portfolio-details .portfolio-info {
+.document-details .document-info {
   padding: 30px;
   box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
 }
-.portfolio-details .portfolio-info h3 {
+.document-details .document-info h3 {
   font-size: 22px;
   font-weight: 700;
   margin-bottom: 20px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eee;
 }
-.portfolio-details .portfolio-info ul {
+.document-details .document-info ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
-.portfolio-details .portfolio-info ul li + li {
+.document-details .document-info ul li + li {
   margin-top: 10px;
 }
-.portfolio-details .portfolio-description {
+.document-details .document-description {
   padding-top: 30px;
 }
-.portfolio-details .portfolio-description h2 {
+.document-details .document-description h2 {
   font-size: 26px;
   font-weight: 700;
   margin-bottom: 20px;
 }
-.portfolio-details .portfolio-description p {
+.document-details .document-description p {
+  padding: 0;
+}
+
+/*--------------------------------------------------------------
+# presentation
+--------------------------------------------------------------*/
+.presentation .presentation-item {
+  margin-bottom: 30px;
+}
+.presentation #presentation-flters {
+  padding: 0;
+  margin: 0 auto 20px auto;
+  list-style: none;
+  text-align: center;
+}
+.presentation #presentation-flters li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 8px 15px 10px 15px;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #444444;
+  margin-bottom: 5px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 3px;
+}
+.presentation #presentation-flters li:hover, .presentation #presentation-flters li.filter-active {
+  color: #fff;
+  background: #e03a3c;
+}
+.presentation #presentation-flters li:last-child {
+  margin-right: 0;
+}
+.presentation .presentation-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(17, 17, 17, 0.6);
+}
+.presentation .presentation-wrap::before {
+  content: "";
+  background: rgba(17, 17, 17, 0.6);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+  opacity: 0;
+}
+.presentation .presentation-wrap img {
+  transition: all ease-in-out 0.3s;
+}
+.presentation .presentation-wrap .presentation-info {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 3;
+  transition: all ease-in-out 0.3s;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 20px;
+}
+.presentation .presentation-wrap .presentation-info h4 {
+  font-size: 20px;
+  color: #fff;
+  font-weight: 600;
+}
+.presentation .presentation-wrap .presentation-info p {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0;
+  margin: 0;
+  font-style: italic;
+}
+.presentation .presentation-wrap .presentation-links {
+  text-align: center;
+  z-index: 4;
+}
+.presentation .presentation-wrap .presentation-links a {
+  color: rgba(255, 255, 255, 0.4);
+  margin: 0 5px 0 0;
+  font-size: 28px;
+  display: inline-block;
+  transition: 0.3s;
+}
+.presentation .presentation-wrap .presentation-links a:hover {
+  color: #fff;
+}
+.presentation .presentation-wrap:hover::before {
+  opacity: 1;
+}
+.presentation .presentation-wrap:hover img {
+  transform: scale(1.2);
+}
+.presentation .presentation-wrap:hover .presentation-info {
+  opacity: 1;
+}
+
+/*--------------------------------------------------------------
+# presentation Details
+--------------------------------------------------------------*/
+.presentation-details {
+  padding-top: 40px;
+}
+.presentation-details .presentation-details-slider img {
+  width: 100%;
+}
+.presentation-details .presentation-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.presentation-details .presentation-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #e03a3c;
+}
+.presentation-details .presentation-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #e03a3c;
+}
+.presentation-details .presentation-info {
+  padding: 30px;
+  box-shadow: 0px 0 30px rgba(17, 17, 17, 0.08);
+}
+.presentation-details .presentation-info h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+.presentation-details .presentation-info ul {
+  list-style: none;
+  padding: 0;
+  font-size: 15px;
+}
+.presentation-details .presentation-info ul li + li {
+  margin-top: 10px;
+}
+.presentation-details .presentation-description {
+  padding-top: 30px;
+}
+.presentation-details .presentation-description h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.presentation-details .presentation-description p {
   padding: 0;
 }
 

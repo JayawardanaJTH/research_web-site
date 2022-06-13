@@ -1,1032 +1,1946 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
 
-<head>
-  <meta charset="utf-8">
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>Nao Bot</title>
+    <meta content="" name="description" />
+    <meta content="" name="keywords" />
 
-  <title>Presento Bootstrap Template - Index</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+    <!-- Favicons -->
+    <link href="assets/img/nao-icon.png" rel="icon" />
+    <link href="assets/img/nao-icon.png" rel="apple-touch-icon" />
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+      rel="stylesheet"
+    />
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/bootstrap/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="assets/vendor/bootstrap-icons/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+    <link
+      href="assets/vendor/glightbox/css/glightbox.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet" />
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
 
-  <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet" />
 
-  <!-- =======================================================
-  * Template Name: Presento - v3.7.0
-  * Template URL: https://bootstrapmade.com/presento-bootstrap-corporate-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
-</head>
+    <!-- Custom CSS File -->
+    <link href="assets/css/custom-style.css" rel="stylesheet" />
+  </head>
 
-<body>
+  <body>
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top d-flex align-items-center">
+      <div class="container d-flex align-items-center">
+        <h1 class="logo me-auto">
+          <a href="index.html">Nao Bot<span>.</span></a>
+        </h1>
 
-  <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center">
-      <h1 class="logo me-auto"><a href="index.html">Presento<span>.</span></a></h1>
-      <!-- Uncomment below if you prefer to use an image logo -->
-      <!-- <a href="index.html" class="logo me-auto"><img src="assets/img/logo.png" alt=""></a>-->
+        <nav id="navbar" class="navbar order-last order-lg-0">
+          <ul>
+            <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+            <li>
+              <a class="nav-link scrollto" href="#domain">Domain</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#milestones">Milestones</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#documents">Documents</a>
+            </li>
+            <li>
+              <a class="nav-link scrollto" href="#presentations"
+                >Presentations</a
+              >
+            </li>
+            <li><a class="nav-link scrollto" href="#about">About Us</a></li>
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
-          <li><a class="nav-link scrollto" href="#services">Services</a></li>
-          <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
-          <li><a href="blog.html">Blog</a></li>
-          <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
-            </ul>
-          </li>
-          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
-        </ul>
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-      <a href="#about" class="get-started-btn scrollto">Get Started</a>
-    </div>
-  </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-  <section id="hero" class="d-flex align-items-center">
-
-    <div class="container" data-aos="zoom-out" data-aos-delay="100">
-      <div class="row">
-        <div class="col-xl-6">
-          <h1>Bettter digital experience with Presento</h1>
-          <h2>We are team of talented designers making websites with Bootstrap</h2>
-          <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        </div>
+            <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          </ul>
+          <i class="bi bi-list mobile-nav-toggle"></i>
+        </nav>
+        <!-- .navbar -->
       </div>
-    </div>
+    </header>
+    <!-- End Header -->
 
-  </section><!-- End Hero -->
-
-  <main id="main">
-
-    <!-- ======= Clients Section ======= -->
-    <section id="clients" class="clients">
-      <div class="container" data-aos="zoom-in">
-
-        <div class="clients-slider swiper">
-          <div class="swiper-wrapper align-items-center">
-            <div class="swiper-slide"><img src="assets/img/clients/client-1.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-2.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-3.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-5.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-6.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-7.png" class="img-fluid" alt=""></div>
-            <div class="swiper-slide"><img src="assets/img/clients/client-8.png" class="img-fluid" alt=""></div>
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Clients Section -->
-
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row no-gutters">
-          <div class="content col-xl-5 d-flex align-items-stretch">
-            <div class="content">
-              <h3>Voluptatem dignissimos provident quasi</h3>
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Duis aute irure dolor in reprehenderit
-              </p>
-              <a href="#" class="about-btn"><span>About us</span> <i class="bx bx-chevron-right"></i></a>
-            </div>
-          </div>
-          <div class="col-xl-7 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
-              <div class="row">
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="100">
-                  <i class="bx bx-receipt"></i>
-                  <h4>Corporis voluptates sit</h4>
-                  <p>Consequuntur sunt aut quasi enim aliquam quae harum pariatur laboris nisi ut aliquip</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="200">
-                  <i class="bx bx-cube-alt"></i>
-                  <h4>Ullamco laboris nisi</h4>
-                  <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="300">
-                  <i class="bx bx-images"></i>
-                  <h4>Labore consequatur</h4>
-                  <p>Aut suscipit aut cum nemo deleniti aut omnis. Doloribus ut maiores omnis facere</p>
-                </div>
-                <div class="col-md-6 icon-box" data-aos="fade-up" data-aos-delay="400">
-                  <i class="bx bx-shield"></i>
-                  <h4>Beatae veritatis</h4>
-                  <p>Expedita veritatis consequuntur nihil tempore laudantium vitae denat pacta</p>
-                </div>
-              </div>
-            </div><!-- End .content-->
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End About Section -->
-
-    <!-- ======= Counts Section ======= -->
-    <section id="counts" class="counts">
-      <div class="container" data-aos="fade-up">
-
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+      <div class="container" data-aos="zoom-out" data-aos-delay="100">
         <div class="row">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="count-box">
-              <i class="bi bi-emoji-smile"></i>
-              <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Happy Clients</p>
-            </div>
+          <div class="col-xl-6">
+            <h1>Train robot to climb a staircase</h1>
+            <h2>
+              We are team of talented developers making solutions for realtime
+              problems
+            </h2>
+            <a href="#domain" class="btn-get-started scrollto">Get Start</a>
           </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-md-0">
-            <div class="count-box">
-              <i class="bi bi-journal-richtext"></i>
-              <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Projects</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-headset"></i>
-              <span data-purecounter-start="0" data-purecounter-end="1463" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hours Of Support</p>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 mt-5 mt-lg-0">
-            <div class="count-box">
-              <i class="bi bi-people"></i>
-              <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" class="purecounter"></span>
-              <p>Hard Workers</p>
-            </div>
-          </div>
-
         </div>
-
       </div>
-    </section><!-- End Counts Section -->
-
-    <!-- ======= Tabs Section ======= -->
-    <section id="tabs" class="tabs">
-      <div class="container" data-aos="fade-up">
-
-        <ul class="nav nav-tabs row d-flex">
-          <li class="nav-item col-3">
-            <a class="nav-link active show" data-bs-toggle="tab" data-bs-target="#tab-1">
-              <i class="ri-gps-line"></i>
-              <h4 class="d-none d-lg-block">Modi sit est dela pireda nest</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
-              <i class="ri-body-scan-line"></i>
-              <h4 class="d-none d-lg-block">Unde praesenti mara setra le</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
-              <i class="ri-sun-line"></i>
-              <h4 class="d-none d-lg-block">Pariatur explica nitro dela</h4>
-            </a>
-          </li>
-          <li class="nav-item col-3">
-            <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
-              <i class="ri-store-line"></i>
-              <h4 class="d-none d-lg-block">Nostrum qui dile node</h4>
-            </a>
-          </li>
-        </ul>
-
-        <div class="tab-content">
-          <div class="tab-pane active show" id="tab-1">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
-                <h3>Voluptatem dignissimos provident quasi corporis voluptates sit assumenda.</h3>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center" data-aos="fade-up" data-aos-delay="200">
-                <img src="assets/img/tabs-1.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-2">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Neque exercitationem debitis soluta quos debitis quo mollitia officia est</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/tabs-2.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-3">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Voluptatibus commodi ut accusamus ea repudiandae ut autem dolor ut assumenda</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Provident mollitia neque rerum asperiores dolores quos qui a. Ipsum neque dolor voluptate nisi sed.</li>
-                </ul>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/tabs-3.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-          <div class="tab-pane" id="tab-4">
-            <div class="row">
-              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
-                <h3>Omnis fugiat ea explicabo sunt dolorum asperiores sequi inventore rerum</h3>
-                <p>
-                  Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-                  velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-                  culpa qui officia deserunt mollit anim id est laborum
-                </p>
-                <p class="fst-italic">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                  magna aliqua.
-                </p>
-                <ul>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-                  <li><i class="ri-check-double-line"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-                  <li><i class="ri-check-double-line"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-                </ul>
-              </div>
-              <div class="col-lg-6 order-1 order-lg-2 text-center">
-                <img src="assets/img/tabs-4.jpg" alt="" class="img-fluid">
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Tabs Section -->
-
-    <!-- ======= Services Section ======= -->
-    <section id="services" class="services section-bg ">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Services</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="row">
-          <div class="col-md-6">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
-              <i class="bi bi-briefcase"></i>
-              <h4><a href="#">Lorem Ipsum</a></h4>
-              <p>Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
-              <i class="bi bi-card-checklist"></i>
-              <h4><a href="#">Dolor Sitema</a></h4>
-              <p>Minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat tarad limino ata</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
-              <i class="bi bi-bar-chart"></i>
-              <h4><a href="#">Sed ut perspiciatis</a></h4>
-              <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
-              <i class="bi bi-binoculars"></i>
-              <h4><a href="#">Nemo Enim</a></h4>
-              <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="500">
-              <i class="bi bi-brightness-high"></i>
-              <h4><a href="#">Magni Dolore</a></h4>
-              <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque</p>
-            </div>
-          </div>
-          <div class="col-md-6 mt-4 mt-md-0">
-            <div class="icon-box" data-aos="fade-up" data-aos-delay="600">
-              <i class="bi bi-calendar4-week"></i>
-              <h4><a href="#">Eiusmod Tempor</a></h4>
-              <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi</p>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section><!-- End Services Section -->
-
-    <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Portfolio</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-7.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-7.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-8.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-8.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <div class="portfolio-wrap">
-              <img src="assets/img/portfolio/portfolio-9.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div class="portfolio-links">
-                  <a href="assets/img/portfolio/portfolio-9.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i class="bx bx-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Portfolio Section -->
-
-    <!-- ======= Testimonials Section ======= -->
-    <section id="testimonials" class="testimonials">
-      <div class="container" data-aos="fade-up">
-        <div class="section-title">
-          <h2>Testimonials</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <p>
-                    <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat esse veniam culpa fore nisi cillum quid.
-                    <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
-        </div>
-
-      </div>
-    </section><!-- End Testimonials Section -->
-
-    <!-- ======= Pricing Section ======= -->
-    <section id="pricing" class="pricing section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Pricing</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-4 col-md-6">
-            <div class="box" data-aos="fade-up" data-aos-delay="100">
-              <h3>Free</h3>
-              <h4><sup>$</sup>0<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li class="na">Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-md-0">
-            <div class="box featured" data-aos="fade-up" data-aos-delay="200">
-              <h3>Business</h3>
-              <h4><sup>$</sup>19<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li class="na">Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 mt-4 mt-lg-0">
-            <div class="box" data-aos="fade-up" data-aos-delay="300">
-              <h3>Developer</h3>
-              <h4><sup>$</sup>29<span> / month</span></h4>
-              <ul>
-                <li>Aida dere</li>
-                <li>Nec feugiat nisl</li>
-                <li>Nulla at volutpat dola</li>
-                <li>Pharetra massa</li>
-                <li>Massa ultricies mi</li>
-              </ul>
-              <div class="btn-wrap">
-                <a href="#" class="btn-buy">Buy Now</a>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Pricing Section -->
-
-    <!-- ======= Frequently Asked Questions Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Frequently Asked Questions</h2>
-        </div>
-
-        <ul class="faq-list accordion" data-aos="fade-up">
-
-          <li>
-            <a data-bs-toggle="collapse" class="collapsed" data-bs-target="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-              </p>
-            </div>
-          </li>
-
-          <li>
-            <a data-bs-toggle="collapse" data-bs-target="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-x icon-close"></i></a>
-            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-              <p>
-                Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
-              </p>
-            </div>
-          </li>
-
-        </ul>
-
-      </div>
-    </section><!-- End Frequently Asked Questions Section -->
-
-    <!-- ======= Team Section ======= -->
-    <section id="team" class="team section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Team</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="100">
-              <div class="member-img">
-                <img src="assets/img/team/team-1.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Walter White</h4>
-                <span>Chief Executive Officer</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="200">
-              <div class="member-img">
-                <img src="assets/img/team/team-2.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Sarah Jhonson</h4>
-                <span>Product Manager</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="300">
-              <div class="member-img">
-                <img src="assets/img/team/team-3.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>William Anderson</h4>
-                <span>CTO</span>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
-            <div class="member" data-aos="fade-up" data-aos-delay="400">
-              <div class="member-img">
-                <img src="assets/img/team/team-4.jpg" class="img-fluid" alt="">
-                <div class="social">
-                  <a href=""><i class="bi bi-twitter"></i></a>
-                  <a href=""><i class="bi bi-facebook"></i></a>
-                  <a href=""><i class="bi bi-instagram"></i></a>
-                  <a href=""><i class="bi bi-linkedin"></i></a>
-                </div>
-              </div>
-              <div class="member-info">
-                <h4>Amanda Jepson</h4>
-                <span>Accountant</span>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Team Section -->
-
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Contact</h2>
-          <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.</p>
-        </div>
-
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-
-          <div class="col-lg-6">
-
-            <div class="row">
-              <div class="col-md-12">
-                <div class="info-box">
-                  <i class="bx bx-map"></i>
-                  <h3>Our Address</h3>
-                  <p>A108 Adam Street, New York, NY 535022</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-envelope"></i>
-                  <h3>Email Us</h3>
-                  <p>info@example.com<br>contact@example.com</p>
-                </div>
-              </div>
-              <div class="col-md-6">
-                <div class="info-box mt-4">
-                  <i class="bx bx-phone-call"></i>
-                  <h3>Call Us</h3>
-                  <p>+1 5589 55488 55<br>+1 6678 254445 41</p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-          <div class="col-lg-6">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row">
-                <div class="col form-group">
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="col form-group">
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">Send Message</button></div>
-            </form>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- End Contact Section -->
-
-  </main><!-- End #main -->
-
-  <!-- ======= Footer ======= -->
-  <footer id="footer">
-
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 footer-contact">
-            <h3>Presento<span>.</span></h3>
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+      <!-- ======= Tabs Section ======= -->
+      <section id="domain" class="tabs">
+        <div class="container" data-aos="fade-up">
+          <!-- start of tile -->
+          <div class="section-title">
+            <h2>Domain</h2>
             <p>
-              A108 Adam Street <br>
-              New York, NY 535022<br>
-              United States <br><br>
-              <strong>Phone:</strong> +1 5589 55488 55<br>
-              <strong>Email:</strong> info@example.com<br>
+              Here we are describe about our research project Literature Survey,
+              Research Gap, Research Problem, Research Objectives, Methodology
+              and the Technologies have used.
             </p>
           </div>
+          <!-- end of title -->
+          <!-- start of navigation tabs -->
+          <ul class="nav nav-tabs row d-flex">
+            <li class="nav-item col-4 mb-2">
+              <a
+                class="nav-link active show"
+                data-bs-toggle="tab"
+                data-bs-target="#tab-1"
+              >
+                <i class="ri-survey-line"></i>
+                <h4 class="d-none d-lg-block">Literature Survey</h4>
+              </a>
+            </li>
+            <li class="nav-item col-4 mb-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-2">
+                <i class="ri-user-search-line"></i>
+                <h4 class="d-none d-lg-block">Research Gap</h4>
+              </a>
+            </li>
+            <li class="nav-item col-4 mb-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-3">
+                <i class="ri-questionnaire-line"></i>
+                <h4 class="d-none d-lg-block">Research Problem</h4>
+              </a>
+            </li>
+            <li class="nav-item col-4 mb-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-4">
+                <i class="ri-focus-2-line"></i>
+                <h4 class="d-none d-lg-block">Research Objectives</h4>
+              </a>
+            </li>
+            <li class="nav-item col-4 mb-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-5">
+                <i class="ri-task-line"></i>
+                <h4 class="d-none d-lg-block">Methodology</h4>
+              </a>
+            </li>
+            <li class="nav-item col-4 mb-2">
+              <a class="nav-link" data-bs-toggle="tab" data-bs-target="#tab-6">
+                <i class="ri-settings-5-line"></i>
+                <h4 class="d-none d-lg-block">Technologies</h4>
+              </a>
+            </li>
+          </ul>
+          <!-- end of navigation tabs -->
+          <!-- start of navigation tab content section -->
+          <div class="tab-content">
+            <!-- start survey -->
+            <div class="tab-pane active show" id="tab-1">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Literature Survey</h3>
 
-          <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
+                  <p>
+                    Currently, robots are used for different types of work, such
+                    as the manufacturing industry, healthcare, and the hotel
+                    industry. According to the current epidemic situation, the
+                    usage of robots was increased because of the need to reduce
+                    human interaction.
+                  </p>
+                  <p>
+                    As a result, they have to walk around the workplace, because
+                    of that, they may have to climb staircases. The world has
+                    many types of robots. Here the selected robot is a humanoid.
+                    This proposal is concerned with how to detect the staircase,
+                    count steps, get dimensions of it, and move the robot on it
+                    by keeping body balance.
+                  </p>
+                  <div class="p-4">
+                    <button
+                      id="readmore"
+                      type="button"
+                      class="btn btn-info text-white readmore"
+                      data-toggle="collapse"
+                      data-target="surveySection"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div id="surveySection" class="collapse readmore">
+                    <p>
+                      First, want to know what the objects are, then walk. The
+                      identified images from the image sensors will get as
+                      input. The technology stack that is used for image
+                      analysis is a method related to computer vision in deep
+                      learning. Other than that, while climbing the stairs robot
+                      needs to identify whether the staircase is over or not.
+                      <span class="text-danger text-decoration-underline">
+                        Here we introduce a new concept: get the number of steps
+                        required to climb before climbing the stairs.
+                      </span>
+                      It is related to how humans identify things by seeing and
+                      making decisions. The need to take the dimensions of the
+                      stairs is that when considering the stairs, they have
+                      their height, width, and range.
+                    </p>
+                    <p>
+                      Therefore, it is imperative to calculate the dimensions of
+                      each staircase separately. Creating a balance system
+                      similar to human balance is a great advantage in robotics.
+                      To implement such a system, there is an upright pose
+                      controller to allow the robot to walk stably by preventing
+                      tilting of the robot during walking on uneven floor. In
+                      general, for us to do that we need to calculate the global
+                      inclination of the floor is a key factor. It can be
+                      measured with a 2-axis accelerator meter, and it is
+                      installed in the inertial sensor.
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="col-lg-6 order-1 order-lg-2 text-center"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <img
+                    src="assets/img/nao7.png"
+                    alt="Literature Survey"
+                    title="Literature Survey"
+                    class="img-fluid domain-image"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- end survey -->
+            <!-- start research gap -->
+            <div class="tab-pane" id="tab-2">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Research Gap</h3>
+                  <p>
+                    When talking about staircase detection, many researchers
+                    have done it in different ways. This system can develop by
+                    using a vision-based approach like a human. The human also
+                    sees objects through the eyes, images converted to a neuron
+                    signal. That signal sends to the vision area in the human
+                    brain. Then the brain can process that signal and give the
+                    vision, not only that it can detect the objects based on the
+                    previous information. As mentioned above human have eyes to
+                    see things likewise robot has many sensors, ultrasonic
+                    sensors, gyroscope sensors, tactile sensors, cameras, etc.
+                    In previous work, there are three main approaches to detect
+                    staircases. Those are sensor-based, vision-based, hybrid
+                    systems.
+                  </p>
+                  <p>
+                    This research presents the theoretical analysis and
+                    implementation of autonomous staircase detection and stair
+                    climbing algorithms on a new rescue mobile robot. This is a
+                    system that is based on seniority. The main objectives are
+                    to locate the staircase during navigation and to develop an
+                    autonomous stair climbing algorithm that is fast, safe, and
+                    smooth. It is necessary to look for a certain number of
+                    levels. There are research groups who have developed
+                    autonomous robot registration and move using user
+                    instructions without any collision. Vision-based system was
+                    developed using the YOLO4 object determination algorithm.
+                  </p>
+                  <div class="p-4">
+                    <button
+                      id="readmore"
+                      type="button"
+                      class="btn btn-info text-white readmore"
+                      data-toggle="collapse"
+                      data-target="gap"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div id="gap" class="collapse">
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18216974</p>
+                      <img
+                        src="/assets/img/tables/1.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18217100</p>
+                      <img
+                        src="/assets/img/tables/2.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18220834</p>
+                      <img
+                        src="/assets/img/tables/3.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18212150</p>
+                      <img
+                        src="/assets/img/tables/4.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/nao2.png"
+                    alt="Research Gap"
+                    title="Research Gap"
+                    class="img-fluid bx-flip-horizontal"
+                  />
+                </div>
+              </div>
+            </div>
+            <!-- end research gap -->
+            <!-- start research problem -->
+            <div class="tab-pane" id="tab-3">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Research Problem</h3>
+                  <p class="fs-4 text-center mt-2">When climb stairs</p>
+                  <ul>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to detect
+                      staircases accurately?
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to get dimensions
+                      of steps correctly?​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to move robot’s
+                      legs?
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to maintain
+                      robot’s body balance?​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to continue safe,
+                      speed and smooth move? ​
+                    </li>
+                  </ul>
+                  <div class="p-4">
+                    <button
+                      id="readmore"
+                      type="button"
+                      class="btn btn-info text-white readmore"
+                      data-toggle="collapse"
+                      data-target="rProblem"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div id="rProblem" class="readmore collapse has2">
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18216974</p>
+                      <ul>
+                        <li>
+                          <i class="ri-check-double-line"></i> How to detect
+                          staircases accurately?
+                        </li>
+                        <li>
+                          <i class="ri-check-double-line"></i> How to count
+                          number of steps in a staircase? ​
+                        </li>
+                        <li>
+                          <i class="ri-check-double-line"></i> How to collect a
+                          data set?​
+                        </li>
+                        <li>
+                          <i class="ri-check-double-line"></i> How to identify
+                          low light situations?​
+                        </li>
+                        <li>
+                          <i class="ri-check-double-line"></i> How to increase
+                          brightness of image? ​​
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/nao4.png"
+                    alt="Research Problem"
+                    title="Research Problem"
+                    class="img-fluid domain-image"
+                  />
+                </div>
+              </div>
+              <div id="rProblem2" class="row readmore collapse">
+                <div class="col-lg-6">
+                  <p class="fs-4 text-center mt-2">IT18217100</p>
+                  <ul>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to configure the
+                      simulator?
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to identify the
+                      distance in between robot & staircase?​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to identify the
+                      dimensions of stair?
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to increase
+                      calculation accuracy of dimensions?
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <p class="fs-4 text-center mt-2">IT18220834</p>
+                  <ul>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to move robot
+                      with legs? ​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to control speed
+                      between legs? ​​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to correctly move
+                      between steps and how to manage distance between legs?
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to manage weight
+                      between legs?​
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <p class="fs-4 text-center mt-2">IT18212150</p>
+                  <ul>
+                    <li>
+                      <i class="ri-check-double-line"></i> When it starts to
+                      walk and climb stairs control it’s stability is the main
+                      part.
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to convert human
+                      motion to mechanical property?​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> How to maintain
+                      stability while moving​
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end research problem -->
+            <!-- start objectives -->
+            <div class="tab-pane" id="tab-4">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Research Objectives</h3>
+
+                  <p class="fst-italic fs-5 font-monospace mt-5">
+                    <span class="text-danger">*</span> Main Objective ​: Train
+                    robot to climb stairs.​ ​
+                  </p>
+                  <ul>
+                    <p>Sub Objectives :</p>
+                    <li>
+                      <i class="ri-check-double-line"></i> Detect the staircase.
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Get dimensions of
+                      staircase. ​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Move robot’s legs on
+                      the staircase.​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Maintain stability of
+                      robot.​
+                    </li>
+                  </ul>
+                  <div class="p-4">
+                    <button
+                      id="readmore"
+                      type="button"
+                      class="btn btn-info text-white readmore"
+                      data-toggle="collapse"
+                      data-target="rObjective"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div id="rObjective" class="readmore has2 collapse">
+                    <div>
+                      <p class="fs-4 mt-2">IT18216974</p>
+                      <ul class="">
+                        <li>
+                          <i class="ri-check-double-line"></i> Identify
+                          staircase.​
+                        </li>
+                        <li>
+                          <i class="ri-check-double-line"></i> Get number of
+                          steps have to climb.​​
+                        </li>
+                        <li>
+                          <i class="ri-check-double-line"></i> Configure robot
+                          camera.​
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/nao6.png"
+                    alt="Research Objectives"
+                    title="Research Objectives"
+                    class="img-fluid domain-image"
+                  />
+                </div>
+              </div>
+              <div
+                id="rObjective2"
+                class="row readmore justify-content-around collapse"
+              >
+                <div class="col-lg-6">
+                  <p class="fs-4 mt-2">IT18217100</p>
+                  <ul class="">
+                    <li>
+                      <i class="ri-check-double-line"></i> Configure the
+                      simulator​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Get distance in
+                      between robot & staircase​​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Identify stair
+                      corners point​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Get dimensions of
+                      stair​
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <p class="fs-4 mt-2">IT18220834</p>
+                  <ul class="">
+                    <li>
+                      <i class="ri-check-double-line"></i> Move robot’s legs on
+                      staircases​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Manage weight between
+                      moving legs.​​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Manage speed of legs.
+                      ​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Manage swing in the
+                      right direction legs​.
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <p class="fs-4 mt-2">IT18212150</p>
+                  <ul>
+                    <li>
+                      <i class="ri-check-double-line"></i> Maintain Stability
+                      when moving​.
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Maintain Balance
+                      while climbing stairs​.​
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Implement a
+                      controller design.
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Analyze mechanical
+                      properties of human walking​.
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <!-- end of objectives -->
+            <!-- start methodology -->
+            <div class="tab-pane" id="tab-5">
+              <div class="row">
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                  <h3>Methodology</h3>
+                  <p>
+                    The robot which we selected is "Nao". It is developed by
+                    "Softbank" Robotics, and they do more developments on it.
+                    They have created a desktop application to develop their
+                    robots that are choreographed.So we have proposed the four
+                    main components.
+                  </p>
+                  <p>
+                    Choregrapghe 2.8.6.23, Webots R2018a, Naoqi, and Python
+                    SDK(Software Development Kit) are the software we have used
+                    in this research. Choregraphe is a multi-platform desktop
+                    application that may run on Windows, Linux, and Mac
+                    computers. It is easy for beginners to create an NAO robot
+                    application due to its user-friendly interface. It is simple
+                    to create NAO robot applications without writing code using
+                    Choregraphe. Webots is an NAO robot simulation program. When
+                    designing and testing the animation of an NAO robot, the
+                    developer always tests in webots first, then checks whether
+                    everything is working properly using a real NAO robot to
+                    protect the real NAO robot’s motor. Python SDK is a
+                    programming kit that allows programmers to create NAO robot
+                    applications. It may be used to create Python modules that
+                    operate on the NAO robot or remotely. Furthermore, because
+                    the NAO robot’s CPU and memory are restricted, data may be
+                    saved to a remote PC using Python SDK. The NAO robot will
+                    use the remote PC to assist with picture processing and some
+                    complex computations.
+                  </p>
+                  <div class="p-4">
+                    <button
+                      id="readmore"
+                      type="button"
+                      class="btn btn-info text-white readmore"
+                      data-toggle="collapse"
+                      data-target="methodology"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div id="methodology" class="collapse">
+                    <p>
+                      Staircase detection is the main part of this research
+                      because other components depend on this component. There
+                      are different approaches to detect objects. In our
+                      scenario, we have used the vision-based method. This
+                      method is done by using the deep learning image
+                      classification technique. We have used VGG-16 and YOLO
+                      image processing models for our further development.
+                    </p>
+                    <p>
+                      Gather distance is the second main part of this research
+                      because other dimensions calculations depend on distance.
+                      The Nao robot’s sonar sensor was used to calculate the
+                      distance. Using that sonar sensor, we can get the actual
+                      distance between the robot and the staircase.
+                    </p>
+                    <p>
+                      Initially, we found out how to extract human motion from
+                      human walking, so we used a walking pattern generator to
+                      consider human characteristics (Walking Circle, Step
+                      length, Heel clearance, foot position) we had used here as
+                      a position-based approach. So, we have to implement a
+                      walking pattern generator and we have given here actual
+                      human data on walking and balancing the body, then when
+                      the robot starts to walk there is a feedback controller
+                      and it will compare the existing data in the generator and
+                      the current data of the robot. So, after that, if the
+                      current data is not in the possible range balance
+                      controller will balance the robot’s movement after the
+                      kinematic operation has been done. When the climbing
+                      staircase robot has to move upward its leg than the usual
+                      range, it will be detected by the feedback controller and
+                      the upper body will be controlled to bend forward, and we
+                      used the knee-ankle strategy to implement this climbing
+                      staircase in our proposed system.
+                    </p>
+                    <div class="mx-3">
+                      <img
+                        src="/assets/img/sys_overview_all.drawio.png"
+                        alt="system overview diagram"
+                        title="System Overview Diagram"
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/nao.png"
+                    alt="Methodology"
+                    title="Methodology"
+                    class="img-fluid"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane" id="tab-6">
+              <div
+                class="row justify-content-sm-center justify-content-lg-evenly"
+              >
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 p-sm-5">
+                  <h3>Technologies have used</h3>
+
+                  <ul class="ms-5">
+                    <li>
+                      <i class="ri-check-double-line"></i> Staircase
+                      Identification Model​
+                      <ul class="ms-5">
+                        <li>
+                          <i class="ri-xing-line"></i> VGG 16 – CNN model​
+                        </li>
+                        <li><i class="ri-xing-line"></i>TensorFlow​​</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Staircase Boundary
+                      Detection​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> YOLO​</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> IDE​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> Google Co-lab​</li>
+                        <li><i class="ri-xing-line"></i> VS-code​​</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Simulation Softwares​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> Webots​​</li>
+                        <li><i class="ri-xing-line"></i> Choregraphe​</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Languages​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> Python​​​</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-lg-6 order-1 order-lg-2 text-center">
+                  <img
+                    src="assets/img/nao8.png"
+                    alt="Technologies"
+                    title="Technologies"
+                    class="img-fluid domain-image"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- start of navigation tab content section -->
+        </div>
+      </section>
+      <!-- End Tabs Section -->
+
+      <!-- ======= Counts Section ======= -->
+      <section id="counts" class="counts">
+        <div class="container" data-aos="fade-up">
+          <div class="row">
+            <div class="col-lg-3 col-md-6">
+              <div class="count-box">
+                <i class="bi bi-robot"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="3000000"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p class="text-center">Number of robots in the world</p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+              <div class="count-box">
+                <i class="bi bi-building"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="400000"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p class="text-center">
+                  New industrial robots arrive at the market per year
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-5 col-md-6 mt-5 mt-lg-0">
+              <div class="count-box">
+                <i class="bi bi-person-bounding-box"></i>
+                <span
+                  data-purecounter-start="0"
+                  data-purecounter-end="900"
+                  data-purecounter-duration="1"
+                  class="purecounter"
+                ></span>
+                <p class="text-center">
+                  Robots per every 10,000 human employees in South Korea
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Counts Section -->
+
+      <!-- ======= Milestones Section ======= -->
+      <section id="milestones" class="faq">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Milestones</h2>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
-            <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
-            </ul>
+          <ul class="faq-list accordion" data-aos="fade-up">
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                class="collapsed"
+                data-bs-target="#faq1"
+                >Project Proposal <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq1" class="collapse" data-bs-parent=".faq-list">
+                <h3 class="mt-2">
+                  (6th September 2021 - Report - 6%, Presentation 6%)
+                </h3>
+                <p>
+                  The project proposal is the main interaction between the
+                  client and the product maker. It provides what the system
+                  provides, cost and the intial steps to follow when it is made.
+                  In the interview panel, it consists of 3 intellectuals who are
+                  experted in the fields that are relevant to the
+                  functionalities of the system that is proposed.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq2"
+                class="collapsed"
+                >Progress Presentation-1
+                <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq2" class="collapse" data-bs-parent=".faq-list">
+                <h3 class="mt-2">(10th January 2022 - Presentation 15%)</h3>
+                <p>
+                  The progress presentation 01 or Prototype presentation is the
+                  situation where the system is at 50% completion. The basic
+                  functionalities of the individuals should be working and the
+                  whole system is not needed.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq3"
+                class="collapsed"
+                >Progress Presentation-2<i
+                  class="bx bx-chevron-down icon-show"
+                ></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq3" class="collapse" data-bs-parent=".faq-list">
+                <h3 class="mt-2">(4th May 2022 - Presentation 18%)</h3>
+                <p>
+                  Progress presentation 02 refers as the situation where the
+                  whole system should be working at the level 90% overall. The
+                  functionalities should be working together so that the
+                  decisions on the final product can be identified by executing
+                  the system from start to end.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq4"
+                class="collapsed"
+                >Final Presentation <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq4" class="collapse" data-bs-parent=".faq-list">
+                <h3 class="mt-2">(6th July 2022 - Presentation 10%)</h3>
+                <p>
+                  Final presentation is the point where the system is fully
+                  functional at 100%. Which means that the system must be a full
+                  product that is able to commercialize.
+                </p>
+              </div>
+            </li>
+
+            <li>
+              <a
+                data-bs-toggle="collapse"
+                data-bs-target="#faq5"
+                class="collapsed"
+              >
+                Viva <i class="bx bx-chevron-down icon-show"></i
+                ><i class="bx bx-x icon-close"></i
+              ></a>
+              <div id="faq5" class="collapse" data-bs-parent=".faq-list">
+                <h3 class="mt-2">(6th July 2022 - Presentation 10%)</h3>
+                <p>
+                  Individual assessment of each member of the group to identify
+                  the level of understanding of the system and the functions of
+                  the system.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <!-- End Milestones Section -->
+
+      <!-- ======= Documents Section ======= -->
+      <section id="documents" class="document">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Documents</h2>
           </div>
 
-          <div class="col-lg-4 col-md-6 footer-newsletter">
-            <h4>Join Our Newsletter</h4>
-            <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
-            <form action="" method="post">
-              <input type="email" name="email"><input type="submit" value="Subscribe">
-            </form>
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="document-flters">
+                <li data-filter=".filter-pro-char" class="filter-active">
+                  Project Charter
+                </li>
+                <li data-filter=".filter-pro-doc">Proposal Documents</li>
+                <li data-filter=".filter-logbook">Proposal Logbooks</li>
+                <li data-filter=".filter-Status-doc">Status Documents</li>
+                <li data-filter=".filter-final-rep">Final Reports</li>
+              </ul>
+            </div>
           </div>
 
+          <!-- ======= Project Charter Section ======= -->
+          <div
+            class="row document-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-3 col-md-6 document-item filter-pro-char">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/project-charter.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Project Charter</h4>
+                  <p>Group</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1aKOPXzNCiHeoIkrXJgqFGOo64-ndp4WI/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Project Charter Section -->
+
+            <!-- ======= Proposal Document Section ======= -->
+
+            <div class="col-lg-3 col-md-6 document-item filter-pro-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL DOCUMENT.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Document</h4>
+                  <p>IT18216974</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/11kyd86srS8nbiKUSsg8PG7sJlKu0pVkq/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-pro-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL DOCUMENT.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Document</h4>
+                  <p>IT18217100</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1QxudQQYczVBe7JYLkpJinyP_us4ti4cK/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-pro-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL DOCUMENT.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Document</h4>
+                  <p>IT18220834</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1d13dDCI7OvdTzWWm_TyN2VhM3COEs6R_/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-pro-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL DOCUMENT.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Document</h4>
+                  <p>IT18212150</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/18nlY7hUYI1MQZjuGqXzOi5twvvRafjBe/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Proposal Document Section -->
+
+            <!-- ======= Proposal Logbook Section ======= -->
+
+            <div class="col-lg-3 col-md-6 document-item filter-logbook">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL LOGBOOKS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Logbook</h4>
+                  <p>IT18216974</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1JbaQkXoNfBk1FoidSWoh1tpB7Q99B16b/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-logbook">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL LOGBOOKS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Logbook</h4>
+                  <p>IT18217100</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1W994zTgW5FtlISNREaAhAQSn3KlzcJ_D/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-logbook">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL LOGBOOKS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Logbook</h4>
+                  <p>IT18220834</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1CvVGIav64lsIjZLHlYGgJrSlpU2RdFTC/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-logbook">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/PROPOSAL LOGBOOKS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Proposal Logbook</h4>
+                  <p>IT18212150</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1cLCh8FuHCNwZ2Cpv8s8UTbJH5dWco5SR/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Proposal Logbook Section -->
+
+            <!-- ======= SRC Documments Section ======= -->
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document I</h4>
+                  <p>IT18216974</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1IDdZFIOVHwG4peoq4heRnVHkKDc4Wrz2/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document I</h4>
+                  <p>IT18217100</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1pIgBllGzJwpcPs6BkaydePgC1l87UmsI/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document I</h4>
+                  <p>IT18220834</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/19x2TPdzyQs0DG-2hShwSzA8GvgxLGrhj/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 1.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document I</h4>
+                  <p>IT18212150</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1QHkprLAkZ8JCBHf1zOzCbNc3yMlsD0M6/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Status Document II -->
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document II</h4>
+                  <p>IT18216974</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1z5UwO1-Q1vT_2ccrU7LZZLwfmFzSVi1v/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document II</h4>
+                  <p>IT18217100</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/17m4uMyNXK2-6q52Bg5aD0Qe1X8q5B0zp/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document II</h4>
+                  <p>IT18220834</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1oX3G96DAE6yHLK4QYeFOsPOgNCf9bCkw/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-Status-doc">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/SRS DOCUMENT 2.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Status Document II</h4>
+                  <p>IT18212150</p>
+                  <div class="document-links">
+                    <a
+                      href="https://drive.google.com/file/d/1aCGHx4E3p-2dmoTLxhRHbSev7vQbw1XT/view?usp=sharing"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End SRC Documments Section -->
+
+            <!-- ======= Final Documments Section ======= -->
+
+            <div class="col-lg-3 col-md-6 document-item filter-final-rep">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/FINAL REPORTS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Final Group Documment</h4>
+                  <p>Group</p>
+                  <div class="document-links">
+                    <a href="" title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-final-rep">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/FINAL REPORTS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Final Individual Documment</h4>
+                  <p>IT18216974</p>
+                  <div class="document-links">
+                    <a href="" title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-final-rep">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/FINAL REPORTS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Final Individual Documment</h4>
+                  <p>IT18217100</p>
+                  <div class="document-links">
+                    <a href="" title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-final-rep">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/FINAL REPORTS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Final Individual Documment</h4>
+                  <p>IT18220834</p>
+                  <div class="document-links">
+                    <a href="" title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 document-item filter-final-rep">
+              <div class="document-wrap">
+                <img
+                  src="assets/img/doc/FINAL REPORTS.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="document-info">
+                  <h4>Final Individual Document</h4>
+                  <p>IT18212150</p>
+                  <div class="document-links">
+                    <a href="" title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Final Documments Section -->
+          </div>
+        </div>
+      </section>
+      <!-- End Documents Section -->
+
+      <!-- ======= Presentation Section ======= -->
+      <section id="presentations" class="presentation">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>Presentations</h2>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-12 d-flex justify-content-center">
+              <ul id="presentation-flters">
+                <li data-filter=".filter-proposal" class="filter-active">
+                  Proposal Presentation
+                </li>
+                <li data-filter=".filter-progress1">Progress Presentation I</li>
+                <li data-filter=".filter-progress2">
+                  Progress Presentation II
+                </li>
+                <li data-filter=".filter-final">Final Presentation</li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- ======= Proposal Presentation Section ======= -->
+          <div
+            class="row presentation-container"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="col-lg-3 col-md-6 presentation-item filter-proposal">
+              <div class="presentation-wrap">
+                <img
+                  src="assets/img/presentation/PROPOSAL PRESENTATION.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="presentation-info">
+                  <h4>Proposal Presentation</h4>
+                  <div class="presentation-links">
+                    <a
+                      href="https://docs.google.com/presentation/d/1Byg2NY427XYaPMvkrydblB24NK9ZwLu8/edit?usp=sharing&ouid=112205962104899581184&rtpof=true&sd=true"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Proposal Presentation Section -->
+
+            <!-- ======= Progress Presentation I Section ======= -->
+
+            <div class="col-lg-3 col-md-6 presentation-item filter-progress1">
+              <div class="presentation-wrap">
+                <img
+                  src="assets/img/presentation/PROGRESS PRESENTATION I.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="presentation-info">
+                  <h4>Progress Presentation I</h4>
+                  <div class="presentation-links">
+                    <a
+                      href="https://docs.google.com/presentation/d/1LJtG7zRltqQRlhx-kJwi55UR-kPEJPEW/edit?usp=sharing&ouid=112205962104899581184&rtpof=true&sd=true"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Progress Presentation I Section -->
+
+            <!-- ======= Progress Presentation II Section ======= -->
+
+            <div class="col-lg-3 col-md-6 presentation-item filter-progress2">
+              <div class="presentation-wrap">
+                <img
+                  src="assets/img/presentation/PROGRESS PRESENTATION II.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="presentation-info">
+                  <h4>Progress Presentation II</h4>
+                  <div class="presentation-links">
+                    <a
+                      href="https://docs.google.com/presentation/d/1r12UrJzgXGx9QI5hJrjiBdM9oC2iW369/edit?usp=sharing&ouid=112205962104899581184&rtpof=true&sd=true"
+                      title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- End Progress Presentation II Section -->
+
+            <!-- ======= Final Presentation Section ======= -->
+
+            <div class="col-lg-3 col-md-6 presentation-item filter-final">
+              <div class="presentation-wrap">
+                <img
+                  src="assets/img/presentation/FINAL PRESENTATION.jpg"
+                  class="img-fluid"
+                  alt=""
+                />
+                <div class="presentation-info">
+                  <h4>Final Presentation</h4>
+                  <div class="presentation-links">
+                    <a href="" title="Document Document"
+                      ><i class="bx bx-download"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Final Presentation Section -->
+          </div>
+        </div>
+      </section>
+      <!-- End Presentation Section -->
+
+      <!-- ======= About Us Section ======= -->
+      <section id="about" class="team section-bg">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>ABOUT US</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch"></div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/scan_image_1505800097-Mr__Samantha.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <!-- <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+                <div class="member-info">
+                  <h3>Mr. Samantha Rajapaksha</h3>
+                  <h4>Supervisor</h4>
+                  <h6>Senior Lecture</h6>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                  <p>samantha.r@my.sliit.lk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/harshanath.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <!-- <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href=""><i class="bi bi-facebook"></i></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div> -->
+                </div>
+                <div class="member-info">
+                  <h3>Mr. S.M.B</h3>
+                  <h3>Harshanath</h3>
+                  <h4>Co-Supervisor</h4>
+                  <h6>Lecture</h6>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                  <p>harshanath.s@my.sliit.lk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch"></div>
+          </div>
+
+          <div class="row">
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="100">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/Tiran.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://twitter.com/harsha_tiran"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a href="https://www.facebook.com/tiran.jayawardana.35"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="https://www.instagram.com/tiran_harsha/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a
+                      href="https://www.linkedin.com/in/tiran-jayawardhana-981686164/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Jayawardana J.T.H</h3>
+                  <h4>Team Leader</h4>
+                  <h6>Final Year Undergraduate</h6>
+                  <p>
+                    BSc in Information Technology specialized in Software
+                    Engineering
+                  </p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                  <p>it18216974@my.sliit.lk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="200">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/Dilshan.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href="https://www.twitter.com/VirangaD/"
+                      ><i class="bi bi-twitter"></i
+                    ></a>
+                    <a href="https://www.facebook.com/hvdilshan/"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="https://www.instagram.com/viranga_dil/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a href="https://www.linkedin.com/in/hvdilshan/"
+                      ><i class="bi bi-linkedin"></i
+                    ></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Dilshan H.V.V</h3>
+                  <h4>Team Member</h4>
+                  <h6>Final Year Undergraduate</h6>
+                  <p>
+                    BSc in Information Technology specialized in Software
+                    Engineering
+                  </p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                  <p>it18217100@my.sliit.lk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="300">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-3.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/hansana.wijethilaka.1"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href="https://www.instagram.com/hansana.w/"
+                      ><i class="bi bi-instagram"></i
+                    ></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Wijethilaka R.G.K.H</h3>
+                  <h4>Team Member</h4>
+                  <h6>Final Year Undergraduate</h6>
+                  <p>
+                    BSc in Information Technology specialized in Information
+                    Technology
+                  </p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                  <p>it18220834@my.sliit.lk</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 col-md-6 d-flex align-items-stretch">
+              <div class="member" data-aos="fade-up" data-aos-delay="400">
+                <div class="member-img">
+                  <img
+                    src="assets/img/team/team-4.jpg"
+                    class="img-fluid"
+                    alt=""
+                  />
+                  <div class="social">
+                    <a href=""><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/hansana.wijethilaka.1"
+                      ><i class="bi bi-facebook"></i
+                    ></a>
+                    <a href=""><i class="bi bi-instagram"></i></a>
+                    <a href=""><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+                <div class="member-info">
+                  <h3>Balasooriya T.D</h3>
+                  <h4>Team Member</h4>
+                  <h6>Final Year Undergraduate</h6>
+                  <p>
+                    BSc in Information Technology specialized in Information
+                    Technology
+                  </p>
+                  <p>Sri Lanka Institute of Information Technology</p>
+                  <p>it18212150@my.sliit.lk</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End About Us Section -->
+
+      <!-- ======= Contact Section ======= -->
+      <section id="contact" class="contact">
+        <div class="container" data-aos="fade-up">
+          <div class="section-title">
+            <h2>CONTACT US</h2>
+            <h1 class="display-2 display-2--light">
+              Reach out for any clarification or just say hello
+            </h1>
+          </div>
+
+          <div class="row" data-aos="fade-up" data-aos-delay="100">
+            <div class="col-lg-6">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="info-box">
+                    <i class="bx bx-map"></i>
+                    <h3>Our Address</h3>
+                    <p class="text-center">
+                      New Kandy Road, Malabe, Colombo, 10115 SL
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <i class="bx bx-envelope"></i>
+                    <h3>Email Us</h3>
+                    <p class="text-center">
+                      it18216974@my.sliit.lk<br />it18217100@my.sliit.lk
+                    </p>
+                  </div>
+                </div>
+                <div class="col-md-6">
+                  <div class="info-box mt-4">
+                    <i class="bx bx-phone-call"></i>
+                    <h3>Call Us</h3>
+                    <p class="text-center">
+                      +94 76 903 6197<br />+94 71 302 5880
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form
+                action="forms/contact.php"
+                method="post"
+                role="form"
+                class="php-email-form"
+              >
+                <div class="row">
+                  <div class="col form-group">
+                    <input
+                      type="text"
+                      name="name"
+                      class="form-control"
+                      id="name"
+                      placeholder="Your Name"
+                      required
+                    />
+                  </div>
+                  <div class="col form-group">
+                    <input
+                      type="email"
+                      class="form-control"
+                      name="email"
+                      id="email"
+                      placeholder="Your Email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="form-group">
+                  <input
+                    type="text"
+                    class="form-control"
+                    name="subject"
+                    id="subject"
+                    placeholder="Subject"
+                    required
+                  />
+                </div>
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    rows="5"
+                    placeholder="Message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">
+                    Your message has been sent. Thank you!
+                  </div>
+                </div>
+                <div class="text-center">
+                  <button type="submit">Send Message</button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- End Contact Section -->
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6 footer-contact">
+              <h3>Nao Bot<span>.</span></h3>
+              <p>
+                New Kandy Road,<br />
+                Malabe, Colombo<br />
+                10115 SL<br />
+                <strong>Phone:</strong> +94 76 903 6197<br />
+                <strong>Email:</strong> it18216974@my.sliit.lk<br />
+              </p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <i class="bx bx-chevron-right"></i> <a href="#hero">Home</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#domain">Domain</a>
+                </li>
+                <li>
+                  <i class="bx bx-chevron-right"></i>
+                  <a href="#about">About Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
 
-    <div class="container d-md-flex py-4">
-
-      <div class="me-md-auto text-center text-md-start">
-        <div class="copyright">
-          &copy; Copyright <strong><span>Presento</span></strong>. All Rights Reserved
-        </div>
-        <div class="credits">
-          <!-- All the links in the footer should remain intact. -->
-          <!-- You can delete the links only if you purchased the pro version. -->
-          <!-- Licensing information: https://bootstrapmade.com/license/ -->
-          <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/presento-bootstrap-corporate-template/ -->
-          Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+      <div class="container d-md-flex py-4">
+        <div class="me-md-auto text-center text-md-start">
+          <div class="copyright">
+            &copy; Copyright <strong><span>Nao Bot</span></strong
+            >. All Rights Reserved
+          </div>
         </div>
       </div>
-      <div class="social-links text-center text-md-end pt-3 pt-md-0">
-        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
-      </div>
-    </div>
-  </footer><!-- End Footer -->
+    </footer>
+    <!-- End Footer -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+    <a
+      href="#"
+      class="back-to-top d-flex align-items-center justify-content-center"
+      ><i class="bi bi-arrow-up-short"></i
+    ></a>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/purecounter/purecounter.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
-
-</body>
-
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+  </body>
 </html>
