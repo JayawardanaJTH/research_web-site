@@ -291,7 +291,7 @@
 
     let presentationFilters = select("#presentation-flters li", true);
 
-    $(presentation).ready(function (e) {
+    $(document).ready(function (e) {
       presentationFilters.forEach(function (el) {
         if (el.classList.length == 1) {
           presentationIsotope.arrange({
