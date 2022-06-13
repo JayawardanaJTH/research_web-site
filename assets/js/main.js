@@ -210,29 +210,29 @@
    * Porfolio isotope and filter
    */
   window.addEventListener("load", () => {
-    let portfolioContainer = select(".portfolio-container");
-    if (portfolioContainer) {
-      let portfolioIsotope = new Isotope(portfolioContainer, {
-        itemSelector: ".portfolio-item",
+    let documentContainer = select(".document-container");
+    if (documentContainer) {
+      let documentIsotope = new Isotope(documentContainer, {
+        itemSelector: ".document-item",
         layoutMode: "fitRows",
       });
 
-      let portfolioFilters = select("#portfolio-flters li", true);
+      let documentFilters = select("#document-flters li", true);
 
       on(
         "click",
-        "#portfolio-flters li",
+        "#document-flters li",
         function (e) {
           e.preventDefault();
-          portfolioFilters.forEach(function (el) {
+          documentFilters.forEach(function (el) {
             el.classList.remove("filter-active");
           });
           this.classList.add("filter-active");
 
-          portfolioIsotope.arrange({
+          documentIsotope.arrange({
             filter: this.getAttribute("data-filter"),
           });
-          portfolioIsotope.on("arrangeComplete", function () {
+          documentIsotope.on("arrangeComplete", function () {
             AOS.refresh();
           });
         },
@@ -242,16 +242,16 @@
   });
 
   /**
-   * Initiate portfolio lightbox
+   * Initiate document lightbox
    */
-  const portfolioLightbox = GLightbox({
-    selector: ".portfolio-lightbox",
+  const documentLightbox = GLightbox({
+    selector: ".document-lightbox",
   });
 
   /**
-   * Portfolio details slider
+   * document details slider
    */
-  new Swiper(".portfolio-details-slider", {
+  new Swiper(".document-details-slider", {
     speed: 400,
     loop: true,
     autoplay: {
@@ -264,6 +264,65 @@
       clickable: true,
     },
   });
+
+/**
+   * presentation isotope and filter
+   */
+ window.addEventListener("load", () => {
+  let presentationContainer = select(".presentation-container");
+  if (presentationContainer) {
+    let presentationIsotope = new Isotope(presentationContainer, {
+      itemSelector: ".presentation-item",
+      layoutMode: "fitRows",
+    });
+
+    let presentationFilters = select("#presentation-flters li", true);
+
+    on(
+      "click",
+      "#presentation-flters li",
+      function (e) {
+        e.preventDefault();
+        presentationFilters.forEach(function (el) {
+          el.classList.remove("filter-active");
+        });
+        this.classList.add("filter-active");
+
+        presentationIsotope.arrange({
+          filter: this.getAttribute("data-filter"),
+        });
+        presentationIsotope.on("arrangeComplete", function () {
+          AOS.refresh();
+        });
+      },
+      true
+    );
+  }
+});
+
+/**
+ * Initiate presentation lightbox
+ */
+const presentationLightbox = GLightbox({
+  selector: ".presentation-lightbox",
+});
+
+/**
+ * presentation details slider
+ */
+new Swiper(".presentation-details-slider", {
+  speed: 400,
+  loop: true,
+  autoplay: {
+    delay: 5000,
+    disableOnInteraction: false,
+  },
+  pagination: {
+    el: ".swiper-pagination",
+    type: "bullets",
+    clickable: true,
+  },
+});
 
   /**
    * Testimonials slider
