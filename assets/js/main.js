@@ -328,16 +328,21 @@
       element.classList.add("collapse");
       e.target.classList.remove("btn-warning");
       e.target.classList.add("btn-info");
+      element.classList.remove("fade-sec");
 
       if (has2) {
         element2.classList.add("collapse");
+        element.classList.remove("fade-sec");
       }
     } else {
       e.target.classList.remove("btn-info");
       e.target.classList.add("btn-warning");
       element.classList.remove("collapse");
+      element.classList.add("fade-sec");
+
       if (has2) {
         element2.classList.remove("collapse");
+        element2.classList.add("fade-sec");
       }
     }
   });
