@@ -207,7 +207,7 @@
   });
 
   /**
-   * Porfolio isotope and filter
+   * document isotope and filter
    */
   window.addEventListener("load", () => {
     let documentContainer = select(".document-container");
@@ -220,12 +220,12 @@
       let documentFilters = select("#document-flters li", true);
 
       $(document).ready(function (e) {
-        portfolioFilters.forEach(function (el) {
+        documentFilters.forEach(function (el) {
           if (el.classList.length == 1) {
-            portfolioIsotope.arrange({
+            documentIsotope.arrange({
               filter: el.getAttribute("data-filter"),
             });
-            portfolioIsotope.on("arrangeComplete", function () {
+            documentIsotope.on("arrangeComplete", function () {
               AOS.refresh();
             });
           }
@@ -290,6 +290,19 @@
     });
 
     let presentationFilters = select("#presentation-flters li", true);
+
+    $(presentation).ready(function (e) {
+      presentationFilters.forEach(function (el) {
+        if (el.classList.length == 1) {
+          presentationIsotope.arrange({
+            filter: el.getAttribute("data-filter"),
+          });
+          presentationIsotope.on("arrangeComplete", function () {
+            AOS.refresh();
+          });
+        }
+      });
+    });
 
     on(
       "click",
