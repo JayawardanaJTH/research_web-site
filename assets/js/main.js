@@ -232,19 +232,6 @@
         });
       });
       
-      $(document).ready(function (e) {
-        portfolioFilters.forEach(function (el) {
-          if (el.classList.length == 1) {
-            portfolioIsotope.arrange({
-              filter: el.getAttribute("data-filter"),
-            });
-            portfolioIsotope.on("arrangeComplete", function () {
-              AOS.refresh();
-            });
-          }
-        });
-      });
-
       on(
         "click",
         "#document-flters li",
