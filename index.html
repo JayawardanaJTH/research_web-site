@@ -18,6 +18,9 @@
       rel="stylesheet"
     />
 
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <!-- Vendor CSS Files -->
     <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
     <link
@@ -251,6 +254,7 @@
                   </p>
                   <div class="p-4">
                     <button
+                      id="readmore"
                       type="button"
                       class="btn btn-info text-white readmore"
                       data-toggle="collapse"
@@ -259,11 +263,7 @@
                       Read More
                     </button>
                   </div>
-                  <div
-                    id="surveySection"
-                    class="collapse readmore"
-                    aria-expanded="false"
-                  >
+                  <div id="surveySection" class="collapse readmore">
                     <p>
                       First, want to know what the objects are, then walk. The
                       identified images from the image sensors will get as
@@ -303,7 +303,7 @@
                     src="assets/img/nao7.png"
                     alt="Literature Survey"
                     title="Literature Survey"
-                    class="img-fluid"
+                    class="img-fluid domain-image"
                   />
                 </div>
               </div>
@@ -315,38 +315,78 @@
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Research Gap</h3>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
+                    When talking about staircase detection, many researchers
+                    have done it in different ways. This system can develop by
+                    using a vision-based approach like a human. The human also
+                    sees objects through the eyes, images converted to a neuron
+                    signal. That signal sends to the vision area in the human
+                    brain. Then the brain can process that signal and give the
+                    vision, not only that it can detect the objects based on the
+                    previous information. As mentioned above human have eyes to
+                    see things likewise robot has many sensors, ultrasonic
+                    sensors, gyroscope sensors, tactile sensors, cameras, etc.
+                    In previous work, there are three main approaches to detect
+                    staircases. Those are sensor-based, vision-based, hybrid
+                    systems.
                   </p>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
+                  <p>
+                    This research presents the theoretical analysis and
+                    implementation of autonomous staircase detection and stair
+                    climbing algorithms on a new rescue mobile robot. This is a
+                    system that is based on seniority. The main objectives are
+                    to locate the staircase during navigation and to develop an
+                    autonomous stair climbing algorithm that is fast, safe, and
+                    smooth. It is necessary to look for a certain number of
+                    levels. There are research groups who have developed
+                    autonomous robot registration and move using user
+                    instructions without any collision. Vision-based system was
+                    developed using the YOLO4 object determination algorithm.
                   </p>
-                  <ul>
-                    <li>
-                      <i class="ri-check-double-line"></i> Ullamco laboris nisi
-                      ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="ri-check-double-line"></i> Duis aute irure dolor
-                      in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="ri-check-double-line"></i> Provident mollitia
-                      neque rerum asperiores dolores quos qui a. Ipsum neque
-                      dolor voluptate nisi sed.
-                    </li>
-                    <li>
-                      <i class="ri-check-double-line"></i> Ullamco laboris nisi
-                      ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                      in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
-                    </li>
-                  </ul>
+                  <div class="p-4">
+                    <button
+                      id="readmore"
+                      type="button"
+                      class="btn btn-info text-white readmore"
+                      data-toggle="collapse"
+                      data-target="gap"
+                    >
+                      Read More
+                    </button>
+                  </div>
+                  <div id="gap" class="collapse">
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18216974</p>
+                      <img
+                        src="/assets/img/tables/1.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18217100</p>
+                      <img
+                        src="/assets/img/tables/2.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18220834</p>
+                      <img
+                        src="/assets/img/tables/3.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                    <div>
+                      <p class="fs-4 text-center mt-2">IT18212150</p>
+                      <img
+                        src="/assets/img/tables/4.jpg"
+                        alt=""
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
+                  </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
                   <img
@@ -389,17 +429,16 @@
                   </ul>
                   <div class="p-4">
                     <button
+                      id="readmore"
                       type="button"
                       class="btn btn-info text-white readmore"
-                      data-toggle="collapses"
+                      data-toggle="collapse"
                       data-target="rProblem"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
                     >
                       Read More
                     </button>
                   </div>
-                  <div id="rProblem" class="readmore">
+                  <div id="rProblem" class="readmore collapse has2">
                     <div>
                       <p class="fs-4 text-center mt-2">IT18216974</p>
                       <ul>
@@ -433,11 +472,11 @@
                     src="assets/img/nao4.png"
                     alt="Research Problem"
                     title="Research Problem"
-                    class="img-fluid"
+                    class="img-fluid domain-image"
                   />
                 </div>
               </div>
-              <div class="row readmore">
+              <div id="rProblem2" class="row readmore collapse">
                 <div class="col-lg-6">
                   <p class="fs-4 text-center mt-2">IT18217100</p>
                   <ul>
@@ -507,7 +546,7 @@
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Research Objectives</h3>
 
-                  <p class="fst-italic fs-5 font-monospace">
+                  <p class="fst-italic fs-5 font-monospace mt-5">
                     <span class="text-danger">*</span> Main Objective ​: Train
                     robot to climb stairs.​ ​
                   </p>
@@ -531,20 +570,19 @@
                   </ul>
                   <div class="p-4">
                     <button
+                      id="readmore"
                       type="button"
                       class="btn btn-info text-white readmore"
-                      data-toggle="collapses"
-                      data-target="rProblem"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
+                      data-toggle="collapse"
+                      data-target="rObjective"
                     >
                       Read More
                     </button>
                   </div>
-                  <div id="rProblem" class="readmore">
+                  <div id="rObjective" class="readmore has2 collapse">
                     <div>
-                      <p class="fs-4 text-center mt-2">IT18216974</p>
-                      <ul>
+                      <p class="fs-4 mt-2">IT18216974</p>
+                      <ul class="">
                         <li>
                           <i class="ri-check-double-line"></i> Identify
                           staircase.​
@@ -566,14 +604,17 @@
                     src="assets/img/nao6.png"
                     alt="Research Objectives"
                     title="Research Objectives"
-                    class="img-fluid"
+                    class="img-fluid domain-image"
                   />
                 </div>
               </div>
-              <div class="row readmore">
+              <div
+                id="rObjective2"
+                class="row readmore justify-content-around collapse"
+              >
                 <div class="col-lg-6">
-                  <p class="fs-4 text-center mt-2">IT18217100</p>
-                  <ul>
+                  <p class="fs-4 mt-2">IT18217100</p>
+                  <ul class="">
                     <li>
                       <i class="ri-check-double-line"></i> Configure the
                       simulator​
@@ -593,8 +634,8 @@
                   </ul>
                 </div>
                 <div class="col-lg-6">
-                  <p class="fs-4 text-center mt-2">IT18220834</p>
-                  <ul>
+                  <p class="fs-4 mt-2">IT18220834</p>
+                  <ul class="">
                     <li>
                       <i class="ri-check-double-line"></i> Move robot’s legs on
                       staircases​
@@ -614,7 +655,7 @@
                   </ul>
                 </div>
                 <div class="col-lg-6">
-                  <p class="fs-4 text-center mt-2">IT18212150</p>
+                  <p class="fs-4 mt-2">IT18212150</p>
                   <ul>
                     <li>
                       <i class="ri-check-double-line"></i> Maintain Stability
@@ -643,48 +684,89 @@
                 <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
                   <h3>Methodology</h3>
                   <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
+                    The robot which we selected is "Nao". It is developed by
+                    "Softbank" Robotics, and they do more developments on it.
+                    They have created a desktop application to develop their
+                    robots that are choreographed.So we have proposed the four
+                    main components.
                   </p>
-
-                  <ul>
-                    <li>
-                      <i class="ri-check-double-line"></i> Ullamco laboris nisi
-                      ut aliquip ex ea commodo consequat.
-                    </li>
-                    <li>
-                      <i class="ri-check-double-line"></i> Duis aute irure dolor
-                      in reprehenderit in voluptate velit.
-                    </li>
-                    <li>
-                      <i class="ri-check-double-line"></i> Ullamco laboris nisi
-                      ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                      in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
-                    </li>
-                  </ul>
+                  <p>
+                    Choregrapghe 2.8.6.23, Webots R2018a, Naoqi, and Python
+                    SDK(Software Development Kit) are the software we have used
+                    in this research. Choregraphe is a multi-platform desktop
+                    application that may run on Windows, Linux, and Mac
+                    computers. It is easy for beginners to create an NAO robot
+                    application due to its user-friendly interface. It is simple
+                    to create NAO robot applications without writing code using
+                    Choregraphe. Webots is an NAO robot simulation program. When
+                    designing and testing the animation of an NAO robot, the
+                    developer always tests in webots first, then checks whether
+                    everything is working properly using a real NAO robot to
+                    protect the real NAO robot’s motor. Python SDK is a
+                    programming kit that allows programmers to create NAO robot
+                    applications. It may be used to create Python modules that
+                    operate on the NAO robot or remotely. Furthermore, because
+                    the NAO robot’s CPU and memory are restricted, data may be
+                    saved to a remote PC using Python SDK. The NAO robot will
+                    use the remote PC to assist with picture processing and some
+                    complex computations.
+                  </p>
                   <div class="p-4">
                     <button
+                      id="readmore"
                       type="button"
                       class="btn btn-info text-white readmore"
-                      data-toggle="collapses"
-                      data-target="rProblem"
-                      data-aos="fade-up"
-                      data-aos-delay="100"
+                      data-toggle="collapse"
+                      data-target="methodology"
                     >
                       Read More
                     </button>
                   </div>
-                  <div>
-                    <img
-                      src="/assets/img/sys_overview_all.drawio.png"
-                      alt="system overview diagram"
-                      title="System Overview Diagram"
-                      class="w-200 w-lg-200"
-                    />
+                  <div id="methodology" class="collapse">
+                    <p>
+                      Staircase detection is the main part of this research
+                      because other components depend on this component. There
+                      are different approaches to detect objects. In our
+                      scenario, we have used the vision-based method. This
+                      method is done by using the deep learning image
+                      classification technique. We have used VGG-16 and YOLO
+                      image processing models for our further development.
+                    </p>
+                    <p>
+                      Gather distance is the second main part of this research
+                      because other dimensions calculations depend on distance.
+                      The Nao robot’s sonar sensor was used to calculate the
+                      distance. Using that sonar sensor, we can get the actual
+                      distance between the robot and the staircase.
+                    </p>
+                    <p>
+                      Initially, we found out how to extract human motion from
+                      human walking, so we used a walking pattern generator to
+                      consider human characteristics (Walking Circle, Step
+                      length, Heel clearance, foot position) we had used here as
+                      a position-based approach. So, we have to implement a
+                      walking pattern generator and we have given here actual
+                      human data on walking and balancing the body, then when
+                      the robot starts to walk there is a feedback controller
+                      and it will compare the existing data in the generator and
+                      the current data of the robot. So, after that, if the
+                      current data is not in the possible range balance
+                      controller will balance the robot’s movement after the
+                      kinematic operation has been done. When the climbing
+                      staircase robot has to move upward its leg than the usual
+                      range, it will be detected by the feedback controller and
+                      the upper body will be controlled to bend forward, and we
+                      used the knee-ankle strategy to implement this climbing
+                      staircase in our proposed system.
+                    </p>
+                    <div class="mx-3">
+                      <img
+                        src="/assets/img/sys_overview_all.drawio.png"
+                        alt="system overview diagram"
+                        title="System Overview Diagram"
+                        class="w-200 w-lg-200"
+                      />
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-6 order-1 order-lg-2 text-center">
@@ -698,35 +780,49 @@
               </div>
             </div>
             <div class="tab-pane" id="tab-6">
-              <div class="row">
-                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+              <div
+                class="row justify-content-sm-center justify-content-lg-evenly"
+              >
+                <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0 p-sm-5">
                   <h3>Technologies have used</h3>
-                  <p>
-                    Ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum
-                  </p>
-                  <p class="fst-italic">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua.
-                  </p>
-                  <ul>
+
+                  <ul class="ms-5">
                     <li>
-                      <i class="ri-check-double-line"></i> Ullamco laboris nisi
-                      ut aliquip ex ea commodo consequat.
+                      <i class="ri-check-double-line"></i> Staircase
+                      Identification Model​
+                      <ul class="ms-5">
+                        <li>
+                          <i class="ri-xing-line"></i> VGG 16 – CNN model​
+                        </li>
+                        <li><i class="ri-xing-line"></i>TensorFlow​​</li>
+                      </ul>
                     </li>
                     <li>
-                      <i class="ri-check-double-line"></i> Duis aute irure dolor
-                      in reprehenderit in voluptate velit.
+                      <i class="ri-check-double-line"></i> Staircase Boundary
+                      Detection​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> YOLO​</li>
+                      </ul>
                     </li>
                     <li>
-                      <i class="ri-check-double-line"></i> Ullamco laboris nisi
-                      ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                      in reprehenderit in voluptate trideta storacalaperda
-                      mastiro dolore eu fugiat nulla pariatur.
+                      <i class="ri-check-double-line"></i> IDE​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> Google Co-lab​</li>
+                        <li><i class="ri-xing-line"></i> VS-code​​</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Simulation Softwares​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> Webots​​</li>
+                        <li><i class="ri-xing-line"></i> Choregraphe​</li>
+                      </ul>
+                    </li>
+                    <li>
+                      <i class="ri-check-double-line"></i> Languages​
+                      <ul class="ms-5">
+                        <li><i class="ri-xing-line"></i> Python​​​</li>
+                      </ul>
                     </li>
                   </ul>
                 </div>
@@ -735,7 +831,7 @@
                     src="assets/img/nao8.png"
                     alt="Technologies"
                     title="Technologies"
-                    class="img-fluid"
+                    class="img-fluid domain-image"
                   />
                 </div>
               </div>

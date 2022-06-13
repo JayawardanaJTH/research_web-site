@@ -307,26 +307,38 @@
   });
 
   // nav tab section
-  on("click", ".readmore", function (e) {
-    let flag = false;
+  $(".readmore").on("click", function (e) {
+    let flag = true;
+    let has2 = false;
     const targetId = e.target["dataset"].target;
-    const element = document.getElementsByClassName(targetId);
-    const elementBtn = document.getElementById(e.target["id"]);
+    const element = document.getElementById(targetId);
+    let element2;
 
-    element.item.forEach((value) => {
-      if (value == "d-block") {
-        flag = true;
+    element.classList.forEach((value) => {
+      if (value == "collapse") {
+        flag = false;
+      }
+      if (value == "has2") {
+        element2 = document.getElementById(targetId + "2");
+        has2 = true;
       }
     });
 
     if (flag) {
-      element.classList.remove("d-block");
-      elementBtn.classList.remove("btn-warning");
-      elementBtn.classList.add("btn-info");
+      element.classList.add("collapse");
+      e.target.classList.remove("btn-warning");
+      e.target.classList.add("btn-info");
+
+      if (has2) {
+        element2.classList.add("collapse");
+      }
     } else {
-      elementBtn.classList.remove("btn-info");
-      elementBtn.classList.add("btn-warning");
-      element.classList.add("d-block");
+      e.target.classList.remove("btn-info");
+      e.target.classList.add("btn-warning");
+      element.classList.remove("collapse");
+      if (has2) {
+        element2.classList.remove("collapse");
+      }
     }
   });
 })();
